@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+/* Mobile Version */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Lexend Deca", sans-serif;
+}
+
+:root {
+	--bright-orange: hsl(31, 77%, 52%);
+	--dark-cyan: hsl(184, 100%, 22%);
+	--very-dark-cyan: hsl(179, 100%, 13%);
+}
+
+.attribution {
+	font-size: 0.6875rem;
+	text-align: center;
+}
+
+.attribution a {
+	color: var(--bright-orange);
+	font-weight: bold;
+	text-decoration: none;
+}
+
+body {
+	background-color: hsl(0, 0%, 95%);
+	font-size: 0.9375rem;
+	height: 100vh;
+}
+
+.container {
+	width: 90%;
+	margin: 6.25rem auto;
+}
+
+.sedans,
+.suvs,
+.luxury {
+	padding: 3.125rem;
+}
+
+.sedans {
+	background-color: var(--bright-orange);
+	border-top-left-radius: 0.625rem;
+	border-top-right-radius: 0.625rem;
+}
+
+.suvs {
+	background-color: var(--dark-cyan);
+}
+
+.luxury {
+	background-color: var(--very-dark-cyan);
+	border-bottom-left-radius: 0.625rem;
+	border-bottom-right-radius: 0.625rem;
+}
+
+img {
+	margin-bottom: 1.875rem;
+}
+
+section h1 {
+	color: hsl(0, 0%, 95%);
+	font-family: "Big Shoulders Display", sans-serif;
+	margin-bottom: 1.5625rem;
+	font-size: 2.25rem;
+}
+
+section p {
+	color: hsla(0, 0%, 100%, 0.75);
+	margin-bottom: 1.875rem;
+	line-height: 1.5625rem;
+}
+
+section button {
+	padding: 0.75rem 1.875rem;
+	border: 0.125rem solid hsl(0, 0%, 95%);
+	border-radius: 1.875rem;
+	cursor: pointer;
+	font-size: 0.9375rem;
+	box-shadow: 0 0.20rem 0.20rem rgba(0, 0, 0, 0.1);
+}
+
+.sedans button {
+	color: var(--bright-orange);
+}
+
+.suvs button {
+	color: var(--dark-cyan);
+}
+
+.luxury button {
+	color: var(--very-dark-cyan);
+}
+
+.sedans button:hover,
+button:hover {
+	background: var(--bright-orange);
+	color: hsl(0, 0%, 95%);
+	transition: 0.25s;
+}
+
+.suvs button:hover {
+	background: var(--dark-cyan);
+}
+
+.luxury button:hover {
+	background: var(--very-dark-cyan);
+}
+
+footer {
+	margin-top: auto;
+	padding-bottom: 0.625rem;
+}
+
+/* Desktop Version */
+
+@media (min-width: 80rem) {
+
+	body {
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.container {
+		width: 64%; 
+		position: absolute;
+		display: flex;
+	}
+
+	.sedans {
+		border-top-left-radius: 0.625rem;
+		border-bottom-left-radius: 0.625rem;
+		border-top-right-radius: 0;
+	}
+
+	.luxury {
+		border-top-right-radius: 0.625rem;
+		border-bottom-right-radius: 0.625rem;
+		border-bottom-left-radius: 0;
+	}
+
+	section p {
+		margin-bottom: 8.5rem;
+	}
+
+	section {
+		position: relative;
+	}
+
+	button {
+		position: absolute;
+		bottom: 2.8125rem;
+	}
+}
