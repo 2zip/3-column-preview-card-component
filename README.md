@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Click here](https://www.frontendmentor.io/solutions/mobile-first-workflow-using-only-html-and-css-fx-nyAKIG)
 - Live Site URL: [Click here](https://2zip.github.io/3-column-preview-card-component/)
 
 ## My process
@@ -41,6 +41,6 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@2zip](https://www.frontendmentor.io/profile/2zip)
+- Twitter - [@alexwtfmarius](https://twitter.com/alexwtfmarius)
 
