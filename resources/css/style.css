@@ -119,7 +119,7 @@ footer {
 	text-decoration: none;
 }
 
-/* Desktop Layout (1024px) */
+/* Desktop Layout (1024w) */
 
 @media (min-width: 64rem) {
 	body {
@@ -161,7 +161,7 @@ footer {
 	}
 }
 
-/* Desktop Layout (1280px) */
+/* Desktop Layout (1280w) */
 
 @media (min-width: 80rem) {
 	.container {
@@ -169,7 +169,7 @@ footer {
 	}
 }
 
-/* Desktop Layout (1440px) */
+/* Desktop Layout (1440w) */
 
 @media (min-width: 90rem) {
 	.container {
