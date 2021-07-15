@@ -92,7 +92,7 @@ section button {
 button:hover {
 	background: var(--bright-orange);
 	color: hsl(0, 0%, 95%);
-	transition: 0.35s;
+	transition: 0.25s;
 }
 
 .suvs button:hover {
