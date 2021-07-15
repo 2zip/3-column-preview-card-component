@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
 
-/* Mobile Version */
+/* Global Styles */
 
 * {
 	margin: 0;
@@ -15,21 +15,12 @@
 	--very-dark-cyan: hsl(179, 100%, 13%);
 }
 
-.attribution {
-	font-size: 0.6875rem;
-	text-align: center;
-}
-
-.attribution a {
-	color: var(--bright-orange);
-	font-weight: bold;
-	text-decoration: none;
-}
+/* Mobile Layut */
 
 body {
+	min-height: 100vh;
 	background-color: hsl(0, 0%, 95%);
 	font-size: 0.9375rem;
-	height: 100vh;
 }
 
 .container {
@@ -77,12 +68,12 @@ section p {
 }
 
 section button {
+	font-size: 0.9375rem;
 	padding: 0.75rem 1.875rem;
 	border: 0.125rem solid hsl(0, 0%, 95%);
 	border-radius: 1.875rem;
+	box-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.1);
 	cursor: pointer;
-	font-size: 0.9375rem;
-	box-shadow: 0 0.20rem 0.20rem rgba(0, 0, 0, 0.1);
 }
 
 .sedans button {
@@ -101,7 +92,7 @@ section button {
 button:hover {
 	background: var(--bright-orange);
 	color: hsl(0, 0%, 95%);
-	transition: 0.25s;
+	transition: 0.35s;
 }
 
 .suvs button:hover {
@@ -117,10 +108,20 @@ footer {
 	padding-bottom: 0.625rem;
 }
 
-/* Desktop Version */
+.attribution {
+	font-size: 0.6875rem;
+	text-align: center;
+}
 
-@media (min-width: 80rem) {
+.attribution a {
+	color: var(--bright-orange);
+	font-weight: bold;
+	text-decoration: none;
+}
 
+/* Desktop Layout (1024px) */
+
+@media (min-width: 64rem) {
 	body {
 		position: relative;
 		display: flex;
@@ -129,7 +130,7 @@ footer {
 	}
 
 	.container {
-		width: 64%; 
+		max-width: 90%;
 		position: absolute;
 		display: flex;
 	}
@@ -157,5 +158,21 @@ footer {
 	button {
 		position: absolute;
 		bottom: 2.8125rem;
+	}
+}
+
+/* Desktop Layout (1280px) */
+
+@media (min-width: 80rem) {
+	.container {
+		max-width: 80%;
+	}
+}
+
+/* Desktop Layout (1440px) */
+
+@media (min-width: 90rem) {
+	.container {
+		max-width: 64%;
 	}
 }
