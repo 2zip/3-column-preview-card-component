@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Click here](https://www.frontendmentor.io/solutions/mobile-first-workflow-using-only-html-and-css-fx-nyAKIG)
-- Live Site URL: [Click here](https://2zip.github.io/3-column-preview-card-component/)
+- [Solution URL](https://www.frontendmentor.io/solutions/mobile-first-workflow-using-only-html-and-css-fx-nyAKIG)
+- [Live Site URL](https://mariussma.github.io/3-column-preview-card-component/)
 
 ## My process
 
